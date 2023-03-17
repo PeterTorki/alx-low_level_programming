@@ -1,14 +1,15 @@
 #include <stdio.h>
-/*
+
+/**
+ * main - print  the program prints a message
  *
- * kolena 3arfen bt3ml eh f fakes shr7
- * */
+ * Description: using puts function to print a message
+ *
+ * Return: 0 means there is no errors
+ */
 int main(void)
 {
-	/*
-	 * Lol On the tway
-	 * */
 	puts("\"Programming is like building a multilingual puzzle");
+	/* value 0 means there is no errors */
 	return (0);
 }
-
