@@ -1,9 +1,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ * main - entry point
+ *
+ * Description: get last digit of a random number and find its properties
+ * greater than 5 or zero or less than 6 and not 0
+ * Return: 0 means no errors
+ */
 int main(void)
 {
 	int n, ldo;
