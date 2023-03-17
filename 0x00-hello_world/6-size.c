@@ -3,8 +3,10 @@
 /**
  * main - entry point
  *
- * Description:  print the size of a data type in bytes
- * Return: 0 means there is no errors 
+ * Description: printing the sizes of different types
+ * using printf function print formated string
+ * sizeof print the size of a data type in bytes
+ * Return: 0 means no errors occured
  */
 int main(void)
 {
