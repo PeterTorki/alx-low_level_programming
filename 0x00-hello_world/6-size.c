@@ -3,11 +3,9 @@
 /**
  * main - entry point
  *
- * Description: print the size of a data type in bytes
- *
+ * Description:  print the size of a data type in bytes
  * Return: 0 means there is no errors 
  */
-
 int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", sizeof(char));
