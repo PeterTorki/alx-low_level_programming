@@ -4,24 +4,33 @@
 /**
  * main - entry point
  *
- * Description: prints all single digit numbers of base 10 starting from 0.
+ * Description: prints all possible combinations of two two-digit numbers.
  *
  * Return: 0 means no errors
  */
 int main(void)
 {
-	int i, j;
-
-	for(i = 0; i < 10; i++)
+	int i, j, x, y;
+	
+	for (i = 0; i <= 9; i++)
 	{
-		for(j = 0; j < 10; j++)
+		for (j = 0; j <= 9; j++)
 		{
-			putchar(i + '0');
-			putchar(j + '0');
-			if (i != 9 || j != 9)
+			for (x = 0; x <= 9; x++)
 			{
-				putchar(',');
-				putchar(' ');
+				for (y = 0; y <= 9; y++)
+				{
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(' ');
+					putchar(x + '0');
+					putchar(y + '0');
+					if (i != 9 || j != 9 || x != 9 || y != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
