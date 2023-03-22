@@ -2,6 +2,7 @@
 /**
  * print_sign - function returns 1 if c is lowercase
  * @n: number to be checked
+ * Return: 1 if > 0, 0 if 0, -1 if < 0
  */
 int print_sign(int n)
 {
