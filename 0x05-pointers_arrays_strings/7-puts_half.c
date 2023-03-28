@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * puts2 - prints every other character of a string
+ * puts_half - The function should print the second half of the string
  * @str: array of string
  *
  * Return: void
@@ -10,10 +10,12 @@ void puts_half(char *str)
 	int i = 0;
 
 	while (str[i])
-	{
-		if (i % 2 == 0)
-			_putchar(str[i]);
 		i++;
-	}
+	
+	i = i / 2 - (i % 2);
+
+	while (str[i])
+		_putchar(str[i]);
+	
 	_putchar('\n');
 }
