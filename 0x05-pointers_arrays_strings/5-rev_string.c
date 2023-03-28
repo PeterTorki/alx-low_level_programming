@@ -8,14 +8,14 @@
 void rev_string(char *s)
 {
 	int l = 0, r = 0;
-
+	char x;
+	
 	while (s[r])
 		r++;
 	r--;
 	while (l < r)
 	{
-		char x = s[l];
-
+		x = s[l];
 		s[l] = s[r];
 		s[r] = x;
 		l++, r--;
