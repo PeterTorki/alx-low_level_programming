@@ -7,15 +7,15 @@
  */
 void puts_half(char *str)
 {
-	int i = 0;
+	int i = 0, j;
 
 	while (str[i])
 		i++;
 	
-	i = i / 2 - (i % 2);
+	j = i / 2 - (i % 2);
 
-	while (str[i])
-		_putchar(str[i]);
+	while (str[j])
+		_putchar(str[j++]);
 	
 	_putchar('\n');
 }
